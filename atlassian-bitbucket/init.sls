@@ -1,9 +1,5 @@
 {% from 'atlassian-bitbucket/map.jinja' import bitbucket with context %}
 
-include:
-  - java
-  - git
-
 bitbucket:
   file.managed:
     - name: /etc/systemd/system/atlassian-bitbucket.service
